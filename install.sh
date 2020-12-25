@@ -62,14 +62,14 @@ git clone https://github.com/scwuaptx/Pwngdb.git ~/Pwngdb
 
 
 echo "[+] Setting .gdbinit..."
-cp gdbinit ~/.gdbinit
+cp ./gdbinit ~/.gdbinit
 
 {
   echo "[+] Creating files..."
-    cp gdb-peda /usr/bin/gdb-peda &&\
-    cp gdb-pwndbg /usr/bin/gdb-pwndbg &&\
-    cp gdb-gef /usr/bin/gdb-gef && \
-    cp gdb-Pwngdb /usr/bin/gdb-Pwngdb
+    cp ./gdb-peda /usr/bin/gdb-peda &&\
+    cp ./gdb-pwndbg /usr/bin/gdb-pwndbg &&\
+    cp ./gdb-gef /usr/bin/gdb-gef && \
+    cp ./gdb-Pwngdb /usr/bin/gdb-Pwngdb
 } || {
   echo "[-] Permission denied"
     exit

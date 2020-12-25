@@ -20,6 +20,7 @@ Initializes GEF (GDB Enhanced Features)
 end
 
 define init-Pwngdb
+source ~/peda/peda.py
 source ~/Pwngdb/pwngdb.py
 source ~/Pwngdb/angelheap/gdbinit.py
 
